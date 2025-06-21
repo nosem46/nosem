@@ -42,6 +42,11 @@
 &emsp; Notice: I usually use KDE(x11) and ligthdm, so I have tested other environment for only several minutes,  
 &emsp; &emsp; &emsp; with browsing Web and playing Youtube with Firefox.  
 
+### How to use  
+・merge this driver with mainline linux kernel source  
+・make menuconfig >> select 'NOSEM DRM Driver (experimental)'  
+・build and install the kernel  
+
 ### TODO  
 ・Optimize VD1 update  
 ・Comfort the spirits of 'the ghost' (fix shutdown process)  
